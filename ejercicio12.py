@@ -1,5 +1,5 @@
 class cuenta_bancaria:
-   
+
     def __init__(self, titular,fondos):
         if isinstance(titular,str):
             self.titular=titular
@@ -18,7 +18,7 @@ class cuenta_bancaria:
         else:
             self.fondos=x+self.fondos
             print("ahora tienes",self.fondos)
-        
+
     def retirar(self,y):
         if y>self.fondos:
             print("retirada cancelada")
@@ -27,9 +27,8 @@ class cuenta_bancaria:
         else:
             self.fondos=self.fondos-y
             print("te quedan",self.fondos)
-        
-    
-    
+
+
 cuenta_1=cuenta_bancaria("javi",500.0)
 cuenta_1.imprimir()
 cuenta_1.ingresar(400.0)
