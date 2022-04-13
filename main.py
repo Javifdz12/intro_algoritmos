@@ -1,8 +1,8 @@
 from clases.ejercicio8 import beneficio_mensual,incluir_iva,precio_sin_iva,unidades_en_staking,rot
-from ejercicio9 import media_aritmetica,media,mediaponderada,x,y,z,lista,ponderadas
-from ejercicio10 import area_triangulo,triangulo1,triangulo2,base,altura
-from ejercicio11 import suma,salario_anual_bruto
-from ejercicio12 import cuenta_bancaria
+from clases.ejercicio9 import media_aritmetica,media,mediaponderada,x,y,z,lista,ponderadas
+from clases.ejercicio10 import area_triangulo,triangulo1,triangulo2,base,altura
+from clases.ejercicio11 import suma,salario_anual_bruto
+from clases.ejercicio12 import cuenta_bancaria
 
 if __name__ == "__main__":
     print("el precio con iva incluido es:",incluir_iva(precio_sin_iva))
